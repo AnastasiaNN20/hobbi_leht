@@ -1,12 +1,14 @@
-$primary: #8f47c5;
+$primary: #e901ab;
 $zindex-offcanvas: 1095;
-$secondary: #b2ff17;
+$secondary: #fffeee;
+$navbar-dark-color:rgb(252, 255, 242);
+$navbar-dark-hover-color:#e901ab;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors: (
-  "altlight": #000000,
+  "altlight": #ffffff,
   "altdark": #934bf8,
 );
 

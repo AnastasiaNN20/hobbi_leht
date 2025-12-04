@@ -15,54 +15,60 @@
 </head>
 <body>
 
- <nav class="navbar navbar-expand-md fixed-button navbar-light">
-    <div class="container-xxl">
-        <a href="#intro" class="navbar-brand">
-        <span class="fw-bold text-primary">
+ <nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Anno_AF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-primary" href="#minust">Minust</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-primary" href="#kontakt">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-primary" href="#hobid">Minu hobid</a>
+          </li>
+          
            
-            Anno_AF
-        </span>
-        </a>
-        <button class="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-         <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link fw-bold text-primary" href="#minust">Minust</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#hobi">Minu Hobi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#instagram"> <i class="bi bi-instagram"></i></a>
-          </li>
-          
-         
-       
-          
-        </ul>
+      </div>
     </div>
+  </div>
 </nav>
 
-<section id="intro">
+<section id="intro"  class="bg-dark mt-4">
   <div class="container-lg">
     <div class="row g-4 justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
             <h1>
-                <div class="display-2">Kuula parimat Nightcore</div>
+                <div class="display-2 text-secondary">Tere tulemast minu hobilehele!</div>
             </h1>
-            <p class="lead my-4 text-muted">Se pole TikTok või kiirustatud versioon, see on nightcore ja sa panned anime thumbnailile</p>
-         
-        </div>
-        <div class="col-md-7 text-center d-none d-md-block">
-
-            
-        </div>
+     
+<img src="/Images/pfp.png" class="float-start" alt="">
     </div>
   </div>  
 </section>
 
+<section class="bg-black">
+<div class="container-lg">
+    <div class="row g-4 justify-content-start align-items-start">
+        <div class="col-md-5 text-start text-md-start">
+            <h2 id="minust">
+                <div class=" display-3 text-secondary">Minust</div>
+            </h2>
+            <p class="lead my-4 text-secondary">Se pole TikTok või kiirustatud versioon, see on nightcore ja sa panned anime thumbnailile</p>
+        
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -74,3 +80,8 @@
   </script>
 </body>
 </html>
+<!-- git add .
+
+git commit -m "sõnum,mida sa muutsid"
+
+git push  -->
